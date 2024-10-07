@@ -1,0 +1,295 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "f4811ac4-6f06-43df-bf1e-4508c1010dac",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "e2dd5652-f98d-44e5-ac06-2413d1df0397",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2\n"
+     ]
+    }
+   ],
+   "source": [
+    "#library fuction or inbuilt function\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "71741731-1784-4a9b-8d8b-83d355c3f98e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "shreya nagame\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"shreya nagame\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "aecfc52e-e263-4819-bc5f-b801690398f9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name = \"shreya nagame\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "f16e423a-8b10-48dc-b94e-87f555d49beb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "shreya nagame\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "3150e7d1-af2b-4063-8960-10f93a8ad49c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'shreya nagame'"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "5ad4097f-763e-473b-b6f0-98f4355e3bfd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a, b, c = 5,4,7"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "fd20c904-7804-4986-b46b-821cc985330c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = b = c = 7"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "ed9c49ce-52f7-4771-9541-6c07d72c263b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7 7 7\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a,b,c  sep=',')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "dd3869a1-7558-417a-945e-1217e7b8bf96",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7@7@7\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a,b,c,sep='@')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "22a3f8eb-fef3-4249-8c11-dd643f97cf39",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "456789\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(45,67,89,sep = \"\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "3c7adb7b-a345-427d-9669-c7d1d3a226eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Aishwarya potdar\n",
+      "Shreya nagame\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('Aishwarya potdar')\n",
+    "print(\"Shreya nagame\")      "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "1be18680-c59d-494c-a25a-4596b399ca76",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Aishwarya potdar\tShreya nagame\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('Aishwarya potdar',end='\\t')\n",
+    "print(\"Shreya nagame\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "6e3180c2-44cb-416f-9634-b331ea784257",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Aishwarya potdar\tShreya nagame\n",
+      "shreya nagame\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('Aishwarya potdar',end='\\t')\n",
+    "print(\"Shreya nagame\")\n",
+    "print(\"shreya nagame\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "1c695ca6-ead0-41e9-bf98-559c1b7411a1",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "unterminated string literal (detected at line 3) (3621920131.py, line 3)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[32], line 3\u001b[0;36m\u001b[0m\n\u001b[0;31m    a= int(input(\"input the value \"a\"))\u001b[0m\n\u001b[0m                                    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m unterminated string literal (detected at line 3)\n"
+     ]
+    }
+   ],
+   "source": [
+    "#write code to add 2 nos.\n",
+    "print(\"Enter two Nos\".)\n",
+    "a= int(input(\"input the value \"a\"))\n",
+    "b= int(input(\"input the value of b\"))\n",
+    "c= a + b\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0af4a4f4-423c-4397-a317-9e2b6fad21d7",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cf6e91b7-2850-49d1-9684-21fa6176cf9a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
